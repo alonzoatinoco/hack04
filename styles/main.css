@@ -1,0 +1,179 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;/* <--- <> 10px*/
+    /* scroll-snap-type: y mandatory; */
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3.4rem;
+}
+p{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.contenedor{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*main*/
+/*main-about*/
+.principal-about{
+    height: 45rem;
+    padding:  5rem 4rem ;
+    margin: 0rem auto;
+    background-color: #7299fe;
+}
+.principal-about h2{
+    color: #1d06a7;
+    padding-bottom: 1rem;
+}
+.principal-about p{
+    color: white;
+}
+.principal-about a{
+    color: white;
+    background-color: #d16eff;
+    border-radius: 2.5rem;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 1rem;
+    box-shadow: 1px 6px 0px -1px rgba(0,0,0,0.29);
+}
+/*main-skil*/
+.principal-skil{
+    background-color: #9022ff;
+    height: 45rem;
+    color: white;
+}
+.principal-skil h2{
+    color: #26cc4b;
+    padding-top: 2rem;
+}
+.principal-skil div{
+    padding: 5rem 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.principal-skil ul{
+    list-style: none;
+}
+.principal-skil meter{
+    width: 50rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+/*portfolio*/
+.portfolio{
+    background-color: #ffd233;
+    height: 45rem;
+}
+.portfolio h2{
+    color: #00ad84;
+    padding-top: 1rem;
+}
+
+.portfolio .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    margin: 3rem 0rem;
+}
+
+.content .content-img{
+    width: 21%;
+    height: 54%;
+    padding: 0.5rem;
+}
+
+/*cliente*/
+.cliente{
+    background-color: #3f4e62;
+    height: 30rem;
+}
+.cliente h2{
+    color: #adff28;
+    padding-top: 6rem;
+}
+.content-patron{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-patron a{
+    margin: 1rem;   
+    border: 1px solid red;
+    padding: 2rem 5rem;
+    color: white;
+}
+
+/*contactos*/
+.contact{
+    background-color: #1687a0;
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact h2{
+    color: #ff1b1b;
+}
+.contact form{
+    text-align: center;
+}
+form input{
+    padding: 1rem .5rem;
+    width: 35rem;
+    height: 5rem;
+}
+form button{
+    padding: 20px 30px;
+    text-transform: uppercase;
+    background-color: #233451;
+    color: white;
+    border: none;
+}
+input,textarea,button{
+    margin: 10px;
+}
+textarea{
+    width: 72rem;
+    height: 13.7rem;
+}
+
+
+
+
+
+
+
+
